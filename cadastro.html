@@ -1,0 +1,113 @@
+<html>
+    <head>
+	   <meta charset="UTF-8"/>
+	   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+ 
+	   <!-- Latest compiled and minified CSS -->
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	   <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+ 
+	<title> Cadastre-se</title>	
+        
+         <style>
+            div{
+                margin: 20px;
+            }
+            .margem-botao {
+                 margin: 20px 0px;
+            }
+            body{
+                background-image: url(imagem/FOLDER A4_CLARO_INTERNO.JPEG);
+            }
+           
+        </style>
+ 
+    </head>
+    <head>
+    <body>
+    <div class="container">
+        <div class="row">
+            
+       
+            <h1> Cadastre-se</h1>
+            <hr>
+        </div>
+
+        <div class="row">
+
+        <div class="col-md-3">
+             Bem Vindo, cadastre seus dados no formulário ao lado para finalizar um perfil conosco!
+        </div>
+
+        <div class="col-md-9">
+            <form>		
+                <div class="form-group">
+                   <label for="nome"> Nome do Usuário </label>
+                    <input type="text" name= "nome" class="form-control" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for= "email"> E-mail </label>
+                    <input type= "email" name= "email" class="form-control" required/>
+                </div>
+
+               
+                <div class="container-fluid">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                             <label for="idade"> Idade </label>
+                             <input type="number" name="idade" min="18" max="110" class="form-control" required/>
+                        </div>					
+                        
+                        <div class="form-group">
+                            <label> for="genero"> Genero sexual?</label>
+                            <div><input type="radio" name="genero" value="masculino"> Masculino </div>
+                            <div><input type="radio" name="genero" value="feminino"> Feminino </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="data_pgto"> data para pagamento</label>
+                            <input type="date" class="form-control" name="data_pgto"  required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="conheceu"> Como conheceu o site? </label>
+                            <div><input type="checkbox" name="google" value="masculino"> Google</div>
+                            <div><input type="checkbox" name="amigos" values="feminino"> Amigos</div>
+                            <div><input type="checkbox" name="revistas_jornais" value="feminino"> Revista e Jornais </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                           
+                        <label for="cor_favorita"> Qual sua cor favorita? </label>
+                        <div><input type="color" class="form_control" name="cor_favorita" ></div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group" align="center">
+                    <button type="submit" class="btn btn-lg btn-success"> 
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Cadastrar
+                    </button>
+                </div>
+
+                    
+                </div>
+            </form>	
+        </div>
+        </div>
+        </div>
+        </body>
+    </head>
+    
+</html>
